@@ -1,0 +1,16 @@
+gevent-pika
+PyCryptodome
+cryptography
+rsa
+apscheduler
+html5lib
+flask-compress
+requests
+gevent
+pytz
+Flask
+redis
+beautifulsoup4
+python_dateutil
+pymysql
+DBUtils
