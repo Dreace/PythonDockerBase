@@ -1,8 +1,12 @@
+Flask-SQLAlchemy
 gevent-pika
+influxdb-logging
 PyCryptodome
 cryptography
 rsa
 apscheduler
+html2text
+qiniu
 html5lib
 flask-compress
 requests
@@ -11,6 +15,8 @@ pytz
 Flask
 redis
 beautifulsoup4
+coloredlogs
 python_dateutil
+icalendar
 pymysql
 DBUtils
