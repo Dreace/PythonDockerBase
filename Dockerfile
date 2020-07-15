@@ -13,5 +13,3 @@ FROM python:3.7-alpine
 COPY --from=build /install/lib /usr/local/lib
 COPY --from=build /etc/localtime /etc/localtime
 COPY --from=build /etc/timezone /etc/timezone
-RUN apk update\
-    && apk add libstdc++
