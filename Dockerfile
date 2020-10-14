@@ -1,6 +1,6 @@
 FROM python:3.7-alpine AS build
 RUN apk update \
-    && apk add git gcc g++ musl-dev libffi-dev openssl-dev make tzdata \
+    && apk add git gcc g++ musl-dev libffi-dev openssl-dev make tzdata nodejs \
     && ln -snf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
     && echo "Asia/Shanghai" > /etc/timezone
 WORKDIR /install
