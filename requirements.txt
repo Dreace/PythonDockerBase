@@ -8,3 +8,4 @@ cryptography
 redis
 flask-cors
 python-dotenv
+python-gnupg
